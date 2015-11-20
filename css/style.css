@@ -41,17 +41,20 @@ h3 {
     font-size: 50px;
 }
 
-.picture {
-    margin-left: 0;
-}
-
-
 
 .test {
     background-color: #666666;
     height: 400px;
     border-style: solid;    
     border: 1px solid gray;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.test:hover {
+    opacity: .5;
+    -webkit-filter: blur(2px);
 }
 
 
