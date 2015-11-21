@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gadget</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/gadget.css">
+    <script type="text/javascript" src="javascript/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="javascript/script.js"></script>
+    <script type="text/javascript" src="javascript/add.js"></script>    
+    <script type="text/javascript" src="javascript/bootstrap.min.js"></script> 
+    
+
+</head>
+
+<body>
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">gadgetfreak.</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <!-- Link do gadgetov na prvi strani -->
+                  <li><a href="index.html#overview">Gadgets</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <h2>Add device</h2>
+
+          <!-- Page Content -->
+          <div class="container">
+              <div class="row">    
+                  <div class="col-xs-12 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">  
+                      <!-- image-preview-filename input [CUT FROM HERE]-->
+                      <div class="input-group image-preview">
+                          <input type="text" class="form-control image-preview-filename" disabled="disabled"> <!-- don't give a name === doesn't send on POST/GET -->
+                          <span class="input-group-btn">
+                              <!-- image-preview-clear button -->
+                              <button type="button" class="btn btn-default image-preview-clear" style="display:none;">
+                                  <span class="glyphicon glyphicon-remove"></span> Clear
+                              </button>
+                              <!-- image-preview-input -->
+                              <div class="btn btn-default image-preview-input">
+                                  <span class="glyphicon glyphicon-folder-open"></span>
+                                  <span class="image-preview-input-title">Browse</span>
+                                  <input type="file" accept="image/png, image/jpeg, image/gif" name="input-file-preview"/> <!-- rename it -->
+                              </div>
+                          </span>
+                      </div><!-- /input-group image-preview [TO HERE]--> 
+                  </div>
+              </div>
+          </div>
+          
+          <!--
+          <div class="inner cover">
+            <img src="">
+              <a href="#" class="btn btn-lg btn-default">Learn more</a>
+            </p>
+          </div>
+
+          
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+          -->
+        </div>
+
+      </div>
+    </div>
+    
+
+    
+   
+</body>
+
+</html>
