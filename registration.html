@@ -29,25 +29,63 @@
               <nav>
                 <ul class="nav masthead-nav">
                   <li class="active"><a href="index.html">Home</a></li>
-                  <li><a href="#">Gadgets</a></li>
+                  <!-- Link do gadgetov na prvi strani -->
+                  <li><a href="index.html#overview">Gadgets</a></li>
                 </ul>
               </nav>
             </div>
           </div>
 
          
-          <form class="form-register">
-            <label for="InputName">Enter Nickname</label>
-            <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Nickname" required autofocus>
-            <label for="inputEmail" class="sr-only">Email address</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-            <label for="inputPassword" class="sr-only">Password</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-            <label for="inputPassword" class="sr-only">Confirm Password</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Confirm Password" required>
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
-          </form>
-
+          
+           
+            <form class="form">
+              <h2>Please Sign Up</h2>
+              <hr class="colorgraph">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                  <div class="form-group">
+                    <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="First Name" tabindex="1">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                  <div class="form-group">
+                    <input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Last Name" tabindex="2">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" name="display_name" id="display_name" class="form-control input-lg" placeholder="Display Name" tabindex="3">
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                  <div class="form-group">
+                    <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                  <div class="form-group">
+                    <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Confirm Password" tabindex="6">
+                  </div>
+                </div>
+              </div>
+              
+              
+              <hr class="colorgraph">
+              <div class="row">
+                <div class="col-xs-12 col-md-6"><input type="submit" value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-8 col-sm-9 col-md-9">
+                   By clicking <strong class="label label-primary">Register</strong>, you agree to the <a href="#" data-toggle="modal" data-target="#t_and_c_m">Terms and Conditions</a> set out by this site, including our Cookie Use.
+                </div>
+              </div>
+            </form>
+         
+       
           <!--
           <div class="mastfoot">
             <div class="inner">
@@ -60,9 +98,6 @@
       </div>
 
     </div>
-
-      
-
 
   </body>
 </html>

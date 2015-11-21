@@ -31,8 +31,10 @@ body {
 }
 body {
   color: #fff;
-  text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-image:url("http://localhost/gadgetfreak/images/tretja.jpg");
+  min-height:100%;
 }
 
 h3 {
@@ -41,20 +43,21 @@ h3 {
     font-size: 50px;
 }
 
-
 .test {
     background-color: #666666;
     height: 400px;
-    border-style: solid;    
-    border: 1px solid gray;
     overflow: hidden;
     background-size: cover;
     background-position: center;
 }
 
-.test:hover {
+.masthead {
+    position: fixed;
+}
+
+.test:hover{
     opacity: .5;
-    -webkit-filter: blur(2px);
+    -webkit-filter: blur(5px);
 }
 
 
