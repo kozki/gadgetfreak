@@ -1,6 +1,6 @@
 //funkcija, ki odstrani header, ko poskrolamo navzdol
 $(window).scroll(function() {
-    if ($(window).scrollTop() > 300) {
+    if ($(window).scrollTop() > 30) {
         //$('.site-wrapper-inner').css("opacity", 0);
         $('.inner').fadeOut(500);
     }

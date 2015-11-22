@@ -15,7 +15,6 @@ a:hover {
 .btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
   border: 1px solid #fff;
 }
 
@@ -30,11 +29,12 @@ body {
   background-color: #333;
 }
 body {
-  color: #fff;
-  background-repeat:no-repeat;
-  background-position: center center;
-  background-image:url("http://localhost/gadgetfreak/images/tretja.jpg");
-  min-height:100%;
+    overflow-x: hidden; 
+    color: #fff;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-image:url("../images/tretja.jpg");
+    min-height:100%;
 }
 
 h3 {
@@ -51,28 +51,11 @@ h3 {
     background-position: center;
 }
 
-.masthead {
-    position: fixed;
-}
 
-
-
-div.test:hover img{
+.test:hover {
     opacity: .5;
 }
 
-div.test:hover input{
-    display: block;
-}
-
-div.test input{
-    position:absolute;
-    display:none;
-}
-div.test input.more{
-    top:0;
-    left:79%;
-}
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -199,4 +182,10 @@ div.test input.more{
   .cover-container {
     width: 700px;
   }
+
+    h3 {
+         position: absolute;
+    left: -100px;
+    font-size: 50px;
+    }
 }
